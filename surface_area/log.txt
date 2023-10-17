@@ -1,0 +1,1 @@
+17/10/2023 Function to draw a rectangle, display the values and show start(next) button
