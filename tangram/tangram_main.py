@@ -226,45 +226,45 @@ square_image: pygame.Surface
 square_center: tuple
 
 # Create a pygame window.
-background = pygame.image.load("rabbit.png")
+background = pygame.image.load("./tangram/rabbit.png")
 background_size = background.get_size()
 screen = pygame.display.set_mode(background_size)
 pygame.display.set_caption("Tangrams")
 
 # Load large triangle assets.
-large_triangle_shadow_image = pygame.image.load("large_triangle_shadow.png")
+large_triangle_shadow_image = pygame.image.load("./tangram/large_triangle_shadow.png")
 large_triangle_control_image = pygame.transform.scale(large_triangle_shadow_image,(70,35))
-baroque_triangle_image = pygame.image.load("Baroque_Yellow_large_triangle.png")
-brunswick_triangle_image = pygame.image.load("Brunswick_Green_large_triangle.png")
-large_triangle_image = pygame.image.load("large_triangle.png")
+baroque_triangle_image = pygame.image.load("./tangram/Baroque_Yellow_large_triangle.png")
+brunswick_triangle_image = pygame.image.load("./tangram/Brunswick_Green_large_triangle.png")
+large_triangle_image = pygame.image.load("./tangram/large_triangle.png")
 large_triangle_center = (20 + large_triangle_image.get_width() / 2,
                          20 + large_triangle_image.get_height() / 2)
 
 # Load square assets.
-square_shadow_image = pygame.image.load("square_shadow.png")
+square_shadow_image = pygame.image.load("./tangram/square_shadow.png")
 square_control_image = pygame.transform.scale(square_shadow_image,(30,30))
-square_image = pygame.image.load("purple_square.png")
+square_image = pygame.image.load("./tangram/purple_square.png")
 square_center = (20 + square_image.get_width() / 2,
                          200 + square_image.get_height() / 2)
 #Load small triangle assets.
-small_triangle_shadow_image = pygame.image.load("small_triangle_shadow.png")
+small_triangle_shadow_image = pygame.image.load("./tangram/small_triangle_shadow.png")
 small_triangle_control_image = pygame.transform.scale(small_triangle_shadow_image,(35,17))
-prussian_triangle_image = pygame.image.load("prussian_blue_small_triangle.png")
-bordeaux_triangle_image = pygame.image.load("Bordeaux_Red_small_triangle.png")
-small_triangle_image = pygame.image.load("small_triangle.png")
+prussian_triangle_image = pygame.image.load("./tangram/prussian_blue_small_triangle.png")
+bordeaux_triangle_image = pygame.image.load("./tangram/Bordeaux_Red_small_triangle.png")
+small_triangle_image = pygame.image.load("./tangram/small_triangle.png")
 small_triangle_center = (20 + small_triangle_image.get_width() / 2,
                          20 + small_triangle_image.get_height() / 2)
 #load medium triangle assets
-medium_triangle_shadow_image = pygame.image.load("medium_triangle_shadow.png")
+medium_triangle_shadow_image = pygame.image.load("./tangram/medium_triangle_shadow.png")
 medium_triangle_control_image = pygame.transform.scale(small_triangle_shadow_image,(40,19))
-medium_triangle_image = pygame.image.load("Azure_medium_triangle.png")
+medium_triangle_image = pygame.image.load("./tangram/Azure_medium_triangle.png")
 medium_triangle_center = (20 + medium_triangle_image.get_width() / 2,
                          20 + medium_triangle_image.get_height() / 2)
 #Load Parallelogram assets
-paral_shadow_image = pygame.image.load("para_shadow.png")
+paral_shadow_image = pygame.image.load("./tangram/para_shadow.png")
 paral_control_image_right = pygame.transform.scale(small_triangle_shadow_image,(35,17))
 paral_control_image_left = pygame.transform.scale(pygame.transform.flip(small_triangle_shadow_image, False, True),(35,17))
-paral_image = pygame.image.load("golden_para.png")
+paral_image = pygame.image.load("./tangram/golden_para.png")
 paral_center = (20 + paral_image.get_width() / 2,
                          100 + paral_image.get_height() / 2)
 
