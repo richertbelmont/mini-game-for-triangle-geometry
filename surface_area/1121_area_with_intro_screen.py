@@ -28,7 +28,7 @@ class Background(pygame.sprite.Sprite):
         self.image = pygame.image.load(image_file)
         self.rect = self.image.get_rect()
         self.rect.left, self.rect.top = location
-BackGround = Background('1121_background_image.jpg', [0,0])
+BackGround = Background('surface_area/1121_background_image.jpg', [0,0])
 
 # List to store the vertices of the user-defined shape
 vertices = []

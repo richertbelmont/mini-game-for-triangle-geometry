@@ -1,7 +1,7 @@
 from PIL import Image
 import math
 # Open an image file
-with Image.open('goldeb_para.png') as img:
+with Image.open('tangram\Children.png') as img:
     # Original size
     orig_width, orig_height = img.size
 
@@ -9,11 +9,11 @@ with Image.open('goldeb_para.png') as img:
     #scale_factor = 0.55
     
     # Calculate the new dimensions
-    new_width = int(218*1.5)
-    new_height = int(orig_height * new_width / orig_width)
+    new_width = int(1000)
+    new_height = int(1000)
 
     # Resize the image
     resized_img = img.resize((new_width, new_height))
 
     # Save the scaled image
-    resized_img.save('golden_para.png')
+    resized_img.save('tangram\Children_new.png')

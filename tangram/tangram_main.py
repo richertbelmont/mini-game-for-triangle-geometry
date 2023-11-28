@@ -90,6 +90,13 @@ class Shadow(pygame.sprite.Sprite):
         self.rect.left += diff[0]
         
 
+class Button():
+    """Buttons for tips and reset and background changes"""
+
+    def __init__(self) -> None:
+        pass
+
+
 class Shape(pygame.sprite.Sprite):
     """A tangram shape.  It can be picked up, dropped, and rotated."""
 
@@ -369,6 +376,8 @@ shadow_group = pygame.sprite.Group()
 # Process dragging to move and rotate the shape, or quit.
 user_quit = False
 while not user_quit:
+    #Add two buttons
+
     # Process events
     for event in pygame.event.get():
         # Process a quit choice.

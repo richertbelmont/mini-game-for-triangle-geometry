@@ -32,8 +32,8 @@ class ImageButton:
     def run_script(self):
         subprocess.Popen(["python", self.python_script])
 #python script path
-tangram = './tangram/tangram_main.py'
-area = './surface_area/1105_area_live_with_calc_button.py'
+tangram = 'tangram/new_interface_tangram.py'
+area = 'surface_area/1121_area_with_intro_screen.py'
 trigonometry = './trigonometric/main.py'
 #button image path
 button_image_1 = './button/button_image1.png'

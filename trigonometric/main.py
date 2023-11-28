@@ -587,7 +587,7 @@ def main():
         # Use recursion to update the time
         local_time = datetime.datetime.today()
         formatted_time = local_time.strftime("%H:%M")
-        time_label = Label(main_tab, text=f"Local time = {formatted_time}", font=("Consolas", 10))
+        time_label = Label(main_tab, text=f"Local time  {formatted_time}", font=("Consolas", 10))
         about_tab.after(1000, time_func)
         time_label.place(x=350, y=325)
 
