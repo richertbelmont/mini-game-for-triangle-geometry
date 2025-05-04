@@ -9,8 +9,8 @@ with Image.open('tangram\Children.png') as img:
     #scale_factor = 0.55
     
     # Calculate the new dimensions
-    new_width = int(1000)
-    new_height = int(1000)
+    new_width = int(800)
+    new_height = int(800)
 
     # Resize the image
     resized_img = img.resize((new_width, new_height))
